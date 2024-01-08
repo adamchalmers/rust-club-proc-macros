@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "derive",
+    "types",
+]
+resolver = "2"

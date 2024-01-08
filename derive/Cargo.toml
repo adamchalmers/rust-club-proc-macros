@@ -1,0 +1,19 @@
+[package]
+name = "rust-club-proc-macros"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+proc-macro2 = "1.0.76"
+quote = "1.0.35"
+rustfmt-wrapper = "0.2.1"
+rust-club-types = { path = "../types" }
+syn = "2.0.48"
+
+[lib]
+proc-macro = true
+
+[dev-dependencies]
+regex = "1.10.2"
